@@ -1,0 +1,31 @@
+
+
+body{
+    font-family: poppins;
+}
+
+.intro{ 
+    display: flex;
+    font-style: bold;
+    font-weight: 300;
+    background-color: black;
+    color: antiquewhite;
+
+}
+.container{
+    width: 92%;
+    margin-top: 0px;
+    height: 100%;
+    padding: 10px;
+    border: 2px solid darkgrey;
+    background-color: grey;
+    border-radius: 16px;
+}
+
+
+.division{
+    padding:-30px;
+    margin-bottom: 5px;
+    align-items: center;
+    
+}

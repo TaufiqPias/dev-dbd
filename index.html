@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>DBD.com</title>
+
+     <link rel="stylesheet" href="styles.css">
+     <script src="script.js" defer></script>
+
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <div class="div">
+          <h1 class="heading1">DBD - Doners of Bangladesh</h1>
+          <p class="intro">We are making a blood donor database</p>
+               
+
+                    <div class="container">
+                         <div class="search">
+                              <h2 class="heading2">Search</h2>
+                    <form>
+                         <h4 class="division">Location Selector</h4>
+                         <label for="dropdown1">Select Division:</label>
+                         <select name="Select Division" id="dropdown1" onchange="updateDropdown2()">
+                              <option value="">--Select Division--</option>
+                              <option value="barisal">Barisal</option>
+                              <option value="chittagong">Chittagong</option>
+                              <option value="dhakanorth">Dhaka North (Inside Dhaka City)</option>
+                              <option value="dhakasouth">Dhaka South (Inside Dhaka City)</option>
+                              <option value="dhakaother">Dhaka Other (Outside Dhaka City)</option>
+                              <option value="khulna">Khulna</option>
+                              <option value="rajshahi">Rajshahi</option>
+                              <option value="rangpur">Rangpur</option>
+                              <option value="sylhet">Sylhet</option>
+                         </select>
+
+                         <br>
+
+                         <label for="dropdown2">Select Area:</label>
+                         <select id="dropdown2">
+                             <option value="">-- Select Areas--</option>
+               
+                         </select>
+
+                         <br>
+
+                         <label for="bloodgrp">Select Blood Group:</label>
+                         <select name="Select Blood Group" id="bloodgrp">
+                              <option value="">--Select Blood Type--</option>
+                              <option value="">A+</option>
+                              <option value="">A-</option>
+                              <option value="">B+</option>
+                              <option value="">B-</option>
+                              <option value="">AB+</option>
+                              <option value="">AB-</option>
+                              <option value="">O+</option>
+                              <option value="">O-</option>
+                         </select>
+                         <br>
+                         <button class="btn" type="submit">Search</button>
+
+                    </form>
+                    </div>
+               
+               </div>
+                    </div>
+               </div>
+
+     </div>
+</body>
+</html>
